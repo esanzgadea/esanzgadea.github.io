@@ -511,6 +511,21 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------Mis estilos--------------------------------------------------------------------------------------------------------------*/
 
+/*------------------More About Me.------------------*/
+
+.moreabout {
+  font-size: 1.3rem;
+}
+
+/*------------------myFooter------------------*/
+
+	.myfooter{
+		border: none;
+		background-color: transparent;
+	}
+
+
+/*------------------Hover over prompter mouse change------------------*/
  
       img.pointer {
         cursor: text;
@@ -524,7 +539,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 
-/*-------------------input box style------------------*/
+/*-------------------Input box style------------------*/
 
 input {
   border-top-style: hidden;
@@ -563,8 +578,8 @@ background-color: black;
 
 
 
-
 /*-------------------Black highlight filters------------------*/
+
 
 .myfilters a {
   color: black;
@@ -663,6 +678,25 @@ background-color: black;
   background-color: white;
   box-shadow: 5px 5px 10px grey;
 }
+
+/*-- Change color of title when Hover--*/
+
+.hov {
+  color: black;
+}
+
+.hov:hover span {
+  display: none;
+  text-decoration: none;
+}
+
+.hov:hover:before {
+  color: #7F7F7F;
+  /*--font-size: 25px; --*/
+  /*--arrows:⭠⮠ --*/
+  text-decoration: none;
+}
+
 /*-- Change Text of NavBar when Hover ARROW--*/
 
 .mipers {
@@ -931,7 +965,7 @@ div.sticky {
 }
 
 /*yotube embedded videos*/
-	.video-container {
+.video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
